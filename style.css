@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 15% auto 10%;
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header header""aside content""footer footer";
+    height: 100vh;
+    width: 100%;
+    gap: 5px;
+    font-family: Arial, serif, sans-serif;
+}
+
+header {
+    grid-area: header;
+    background: orange;
+}
+
+aside {
+    grid-area: aside;
+}
+
+section {
+    grid-area: content;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: orange;
+}
+
+.border {
+    border: 1px solid orangered;
+}
+
+.menu-residentes {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-container {
+    padding: 15px;
+}
+
+.menu-residentes a {
+    background: orangered;
+    padding: 5px 15px;
+    border: 1px solid orangered;
+    margin: 5px 0;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.menu-residentes a:hover,
+.menu-residentes .selected {
+    background: orange;
+}
+
+.urbanizacion-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 2fr 4fr 2fr;
+    grid-template-areas: "manzana1 manzana2 manzana3""manzana1 manzana4 manzana3""manzana1 manzana5 manzana3";
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 400px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.manzana {
+    display: flex;
+
+}
+
+#m1 {
+    grid-area: manzana1;
+    place-items: center;
+    justify-content: start;
+}
+
+#m2 {
+    grid-area: manzana2;
+    place-content: center;
+    place-items: start;
+}
+
+#m3 {
+    grid-area: manzana3;
+    place-items: center;
+    justify-content: end;
+}
+
+#m4 {
+    grid-area: manzana4;
+    place-items: center;
+    justify-content: center;
+}
+
+#m5 {
+    grid-area: manzana5;
+    place-content: center;
+    place-items: end;
+    position: relative;
+}
+
+#m1 .villa-container,
+#m3 .villa-container {
+    width: 90px;
+    height: 80%;
+    flex-direction: column;
+}
+
+#m3 .villa-container {
+    align-items: end;
+}
+
+#m2 .villa-container,
+#m5 .villa-container {
+    width: 80%;
+    height: 90px;
+}
+
+#m5 .villa-container {
+    place-content: end;
+}
+
+#m4 .villa-container {
+    width: 80%;
+    height: 90px;
+}
+
+.villa-container {
+    display: flex;
+}
+
+.parque {
+    background-color: white;
+    height: 110px;
+    min-width: 110px;
+    width: 110px;
+    border: 1px solid black;
+}
+
+.villa {
+    width: 100%;
+    height: 100%;
+    max-width: 70px;
+    border: 1px solid black;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: blue;
+    font-size: 25px;
+}
+
+.garita {
+    width: 80px;
+    height: 30px;
+    background: green;
+    position: absolute;
+    left: -40px;
+    bottom: -15px;
+}
+
+.garita span {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    text-align: center;
+}

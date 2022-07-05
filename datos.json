@@ -1,0 +1,27 @@
+{"urbanizaciones":[
+    {"id_residente":1, "manzana":1, "villa":1, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":1, "villa":2, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":1, "villa":3, "telefono":"0937462233", "estado":"amarillo"},
+    {"id_residente":1, "manzana":1, "villa":4, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":2, "villa":1, "telefono":"0937465833", "estado":"amarillo"},
+    {"id_residente":1, "manzana":2, "villa":2, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":2, "villa":3, "telefono":"0937462233", "estado":"amarillo"},
+    {"id_residente":1, "manzana":2, "villa":4, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":2, "villa":5, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":2, "villa":6, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":3, "villa":1, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":3, "villa":2, "telefono":"0937465833", "estado":"gris"},
+    {"id_residente":1, "manzana":3, "villa":3, "telefono":"0937462233", "estado":"verde"},
+    {"id_residente":1, "manzana":3, "villa":4, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":4, "villa":1, "telefono":"0937465833", "estado":"rojo"},
+    {"id_residente":1, "manzana":4, "villa":2, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":4, "villa":3, "telefono":"0937462233", "estado":"verde"},
+    {"id_residente":1, "manzana":4, "villa":4, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":5, "villa":1, "telefono":"0937465833", "estado":"gris"},
+    {"id_residente":1, "manzana":5, "villa":2, "telefono":"0937465833", "estado":"verde"},
+    {"id_residente":1, "manzana":5, "villa":3, "telefono":"0937462233", "estado":"amarillo"},
+    {"id_residente":1, "manzana":5, "villa":4, "telefono":"0937465833", "estado":"amarillo"},
+    {"id_residente":1, "manzana":5, "villa":5, "telefono":"0937465833", "estado":"rojo"}
+   ]
+}
+   
